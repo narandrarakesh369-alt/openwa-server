@@ -1,0 +1,13 @@
+export declare const ENGINE_NOT_READY_409: string;
+export declare const PAIRING_NOT_READY_409: string;
+export declare const SESSION_NOT_STARTED_404: string;
+export declare const RECIPIENT_UNREACHABLE_400: string;
+export declare const ENGINE_REFUSED_403: string;
+export declare const MESSAGE_NOT_FOUND_404: string;
+export declare const CHANNEL_NOT_FOUND_404: string;
+export declare const CHANNEL_INVITE_NOT_FOUND_404: string;
+export declare const CUSTOM_LINK_PREVIEW_501: string;
+export declare const GROUP_NOT_FOUND_404 = "No such group \u2014 the id is unknown.";
+export declare const LABEL_NOT_FOUND_404: string;
+export declare const ENGINE_NOT_SUPPORTED_501: string;
+export declare const CHANNEL_MEDIA_501: string;

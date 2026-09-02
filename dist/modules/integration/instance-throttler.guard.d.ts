@@ -1,0 +1,7 @@
+import { ProxyAwareThrottlerGuard } from '../../common/security/proxy-aware-throttler.guard';
+export declare class InstanceThrottlerGuard extends ProxyAwareThrottlerGuard {
+    onModuleInit(): Promise<void>;
+    private trackClientIp;
+    protected shouldSkip(): Promise<boolean>;
+    protected getTracker(req: Record<string, unknown>): Promise<string>;
+}

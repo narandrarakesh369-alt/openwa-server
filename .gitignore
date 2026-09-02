@@ -5,8 +5,8 @@ node_modules
 .pnp.js
 
 # Build output
-dist/
-build/
+# dist/
+# build/
 .next/
 out/
 
@@ -82,3 +82,4 @@ _docs/
 .superpowers/
 # TypeScript incremental build cache (tsc writes this at repo root under the TS6 build config)
 *.tsbuildinfo
+
