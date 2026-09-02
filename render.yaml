@@ -4,11 +4,12 @@
       "type": "web",
       "name": "openwa-server",
       "runtime": "node",
-      "buildCommand": "npm ci --omit=dev",
+      "buildCommand": "npm ci --omit=dev --ignore-scripts",
       "startCommand": "node dist/main.js",
       "envVars": [
         { "key": "PORT", "value": "2785" },
-        { "key": "NODE_ENV", "value": "production" },
+        { "key": "NODE_ENV", "value": "development" },
+        { "key": "NODE_VERSION", "value": "22.16.0" },
         { "key": "DATABASE_TYPE", "value": "sqlite" },
         { "key": "DATABASE_NAME", "value": "./data/openwa.sqlite" },
         { "key": "DATABASE_SYNCHRONIZE", "value": "true" },
@@ -20,6 +21,7 @@
         { "key": "QUEUE_ENABLED", "value": "false" },
         { "key": "CACHE_ENABLED", "value": "false" },
         { "key": "ALLOW_DEV_API_KEY", "value": "true" },
+        { "key": "API_MASTER_KEY", "value": "owa_k1_322c97c576644741ef2f38ffef81d63d969ceebaf9a4336ede757b2f0a165116" },
         { "key": "AUTO_START_SESSIONS", "value": "false" }
       ]
     }
